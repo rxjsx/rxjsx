@@ -2,7 +2,7 @@
   "name": "@rxjsx/rxjsx",
   "version": "0.0.0",
   "description": "RxJS Extensions",
-  "main": "dist/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
