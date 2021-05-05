@@ -3,10 +3,17 @@
   "version": "0.0.0",
   "description": "RxJS Extensions",
   "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
+    "build": "rm -rf lib && tsc",
     "junit": "jest --ci --reporters=default --reporters=jest-junit",
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "prepublish": "npm run build",
+    "prepublishOnly": "npm test"
   },
+  "files": [
+    "lib/**/*"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rxjsx/rxjsx.git"
