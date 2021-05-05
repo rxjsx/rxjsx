@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/rxjsx/rxjsx/issues"
   },
-  "homepage": "https://github.com/rxjsx/rxjsx#readme"
+  "homepage": "https://github.com/rxjsx/rxjsx#readme",
+  "devDependencies": {
+    "rxjs": "^7.0.0"
+  }
 }
