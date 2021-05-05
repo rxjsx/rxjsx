@@ -8,6 +8,7 @@
     "build": "rm -rf lib && tsc",
     "junit": "jest --ci --reporters=default --reporters=jest-junit",
     "test": "jest --coverage",
+    "lint": "eslint 'src/**/*.{js,ts,tsx}' --quiet --fix",
     "prepublish": "npm run build",
     "prepublishOnly": "npm test"
   },
@@ -29,8 +30,14 @@
   "homepage": "https://github.com/rxjsx/rxjsx#readme",
   "devDependencies": {
     "@types/jest": "^26.0.23",
+    "@typescript-eslint/eslint-plugin": "^4.22.1",
+    "@typescript-eslint/parser": "^4.22.1",
+    "eslint": "^7.25.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
     "jest": "^26.6.3",
     "jest-junit": "^12.0.0",
+    "prettier": "^2.2.1",
     "rxjs": "^6.6.7",
     "ts-jest": "^26.5.6",
     "typescript": "^4.2.4"
