@@ -1,5 +1,5 @@
 {
-  "name": "rxjsx",
+  "name": "@rxjsx/rxjsx",
   "version": "0.0.0",
   "description": "RxJS Extensions",
   "main": "dist/index.js",
