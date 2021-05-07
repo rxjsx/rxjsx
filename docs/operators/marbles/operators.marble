@@ -1,0 +1,76 @@
+marble zipMap
+{
+    source a:             +--1-2-3--4--|
+    operator zipMap:      +--{1,A}-{2,B}-{3,C}--{4,D}--|
+}
+
+marble flatZipMap
+{
+    source a:             +123|
+    source b:             +A---B---C|
+    operator flatZipMap:  +{1,1A}{2,2A}{3,3A}-{1,1B}{2,2B}{3,3B}-{1,1C}{2,2C}{3,3C}|
+}
+
+marble projectToFormer
+{
+    source a:                  +--{1,A}-{2,B}-{3,C}--{4,D}--|
+    operator projectToFormer:  +--1-2-3--4--|
+}
+
+marble projectToLatter
+{
+    source a:                  +--{1,A}-{2,B}-{3,C}--{4,D}--|
+    operator projectToLatter:  +--A-B-C--D--|
+}
+
+marble mapFormer
+{
+    source a:                  +--{1,A}-{2,B}-{3,C}--{4,D}--|
+    operator mapFormer:        +--{10,A}-{20,B}-{30,C}--{40,D}--|
+}
+
+marble mapLatter
+{
+    source a:                  +--{1,A}-{2,B}-{3,C}--{4,D}--|
+    operator mapFormer:        +--{1,AA}-{2,BB}-{3,CC}--{4,DD}--|
+}
+
+marble flatMapFormer
+{
+    source a:                  +{1,A}--{2,B}--{3,C}---{4,D}|
+    source b:                  +XY|
+    operator flatMapFormer:    +{1X,A}{1Y,A}-{2X,B}{2Y,B}-{3X,C}{3Y,C}--{4X,D}{4Y,D}|
+}
+
+marble flatMapLatter
+{
+    source a:                  +{1,A}--{2,B}--{3,C}---{4,D}|
+    source b:                  +XY|
+    operator flatMapFormer:    +{1,AX}{1,AY}-{2,BX}{2,BY}-{3,CX}{3,CY}--{4,DX}{4,DY}|
+}
+
+marble listMap
+{
+    source a:                  +{1,2,3}--{4}-{5,6}-|
+    operator listMap:          +{A,B,C}--{D}-{E,F}-|
+}
+
+marble flatListMap
+{
+    source a:                  +{1,2,3}--{4}--{5,6}|
+    source b:                  +XY|
+    operator listMap:          +{1X,2X,3X}{1Y,2Y,3Y}-{4X}{4Y}-{5X,6X}{5Y,6Y}|
+}
+
+marble listFlatMap
+{
+    source a:                  +{1,2,3}--{4}--{5,6}|
+    operator listFlatMap:      +{1A,1B,2A,2B,3A,3B}--{4A,4B}--{5A,5B,6A,6B}|
+}
+
+marble flatListFlatMap
+{
+    source a:                  +{1,2,3}--{4}--{5,6}|
+    source b:                  +XY|
+    operator flatListFlatMap:  +{1AX,1BX,2AX,2BX,3AX,3BX}{1AY,1BY,2AY,2BY,3AY,3BY}-{4AX,4BX}{4AY,4BY}-{5AX,5BX,6AX,6BX}{5AY,5BY,6AY,6BY}|
+}
