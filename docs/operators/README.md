@@ -232,12 +232,3 @@ of([1, 2, 3])
   .pipe(flatListFlatMap(x => of([x, x * 2])))
   .subscribe(console.log); // [1, 2, 2, 4, 3, 6]
 ```
-
-## IDE Type Inference
-
-If the IDE could not infer the type of operators like `zipMap`, import them from
-`rxjs-pipe-ext/lib` instead:
-
-```typescript
-import { zipMap } from 'rxjs-pipe-ext/lib';
-```
