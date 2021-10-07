@@ -13,19 +13,19 @@ npm install --save @rxjsx/rxjsx
 ## Manual
 
 The available operators so far are the following:
-Operator | 
---- | 
-flatMap |
-zipMap | 
-flatZipMap | 
-projectToFormer | 
-projectToLatter | 
-projectTo | 
-mapFormer |  
-mapLatter |  
-flatMapFormer |  
-flatMapLatter |  
-listMap | 
-flatListMap |  
-listFlatMap |  
-flatListFlatMap |  
+Operator | Link |
+--- | --- |
+flatMap | [flatMap](https://github.com/rxjsx/rxjsx/tree/master/docs/operators#flatmap) |
+zipMap | [zipMap](https://github.com/rxjsx/rxjsx/tree/master/docs/operators#zipmap) |
+flatZipMap | [flatZipMap](https://github.com/rxjsx/rxjsx/tree/master/docs/operators#flatzipmap) |
+projectToFormer | [projectToFormer](https://github.com/rxjsx/rxjsx/tree/master/docs/operators#projecttoformer) |
+projectToLatter | [projectToLatter](https://github.com/rxjsx/rxjsx/tree/master/docs/operators#projecttolatter) |
+projectTo | [projectTo](https://github.com/rxjsx/rxjsx/tree/master/docs/operators#projectto) |
+mapFormer | [mapFormer](https://github.com/rxjsx/rxjsx/tree/master/docs/operators#mapformer) |
+mapLatter |  [mapLatter](https://github.com/rxjsx/rxjsx/tree/master/docs/operators#maplatter) |
+flatMapFormer | [flatMapFormer](https://github.com/rxjsx/rxjsx/tree/master/docs/operators#flatmapformer) |
+flatMapLatter |  [flatMapLatter](https://github.com/rxjsx/rxjsx/tree/master/docs/operators#flatmaplatter) |
+listMap | [listMap](https://github.com/rxjsx/rxjsx/tree/master/docs/operators#listmap) |
+flatListMap | flatListMap](https://github.com/rxjsx/rxjsx/tree/master/docs/operators#flatlistmap) |
+listFlatMap | listFlatMap](https://github.com/rxjsx/rxjsx/tree/master/docs/operators#listflatmap) |
+flatListFlatMap |  flatListFlatMap](https://github.com/rxjsx/rxjsx/tree/master/docs/operators#flatlistflatmap) |
