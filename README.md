@@ -17,7 +17,7 @@ Operator | Link | Description |
 --- | --- | --- |
 flatMap | [flatMap](https://github.com/rxjsx/rxjsx/tree/master/docs/operators#flatmap) | RxJS's mergeMap alias |
 zipMap | [zipMap](https://github.com/rxjsx/rxjsx/tree/master/docs/operators#zipmap) | To zip the transformed value with the original value |
-flatZipMap | [flatZipMap](https://github.com/rxjsx/rxjsx/tree/master/docs/operators#flatzipmap) | Similar to [flatMap](https://github.com/rxjsx/rxjsx/tree/master/docs/operators#flatmap), but to be used when a transformation returns an observable | 
+flatZipMap | [flatZipMap](https://github.com/rxjsx/rxjsx/tree/master/docs/operators#flatzipmap) | Similar to [zipMap](https://github.com/rxjsx/rxjsx/tree/master/docs/operators#zipmap), but to be used when a transformation returns an observable | 
 projectToFormer | [projectToFormer](https://github.com/rxjsx/rxjsx/tree/master/docs/operators#projecttoformer) | To project an observable of pairs, to get the first coordinate |
 projectToLatter | [projectToLatter](https://github.com/rxjsx/rxjsx/tree/master/docs/operators#projecttolatter) | To project an observable of pairs, to get the second coordinate |
 projectTo | [projectTo](https://github.com/rxjsx/rxjsx/tree/master/docs/operators#projectto) | To project an observable of tuples | 
