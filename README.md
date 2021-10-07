@@ -26,6 +26,6 @@ mapLatter |  [mapLatter](https://github.com/rxjsx/rxjsx/tree/master/docs/operato
 flatMapFormer | [flatMapFormer](https://github.com/rxjsx/rxjsx/tree/master/docs/operators#flatmapformer) |
 flatMapLatter |  [flatMapLatter](https://github.com/rxjsx/rxjsx/tree/master/docs/operators#flatmaplatter) |
 listMap | [listMap](https://github.com/rxjsx/rxjsx/tree/master/docs/operators#listmap) |
-flatListMap | flatListMap](https://github.com/rxjsx/rxjsx/tree/master/docs/operators#flatlistmap) |
-listFlatMap | listFlatMap](https://github.com/rxjsx/rxjsx/tree/master/docs/operators#listflatmap) |
-flatListFlatMap |  flatListFlatMap](https://github.com/rxjsx/rxjsx/tree/master/docs/operators#flatlistflatmap) |
+flatListMap | [flatListMap](https://github.com/rxjsx/rxjsx/tree/master/docs/operators#flatlistmap) |
+listFlatMap | [listFlatMap](https://github.com/rxjsx/rxjsx/tree/master/docs/operators#listflatmap) |
+flatListFlatMap |  [flatListFlatMap](https://github.com/rxjsx/rxjsx/tree/master/docs/operators#flatlistflatmap) |
