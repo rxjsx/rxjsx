@@ -11,4 +11,21 @@ npm install --save @rxjsx/rxjsx
 ```
 
 ## Manual
-- [Operators](docs/operators/README.md)
+
+The available operators so far are the following:
+Operator | 
+--- | 
+flatMap |
+zipMap | 
+flatZipMap | 
+projectToFormer | 
+projectToLatter | 
+projectTo | 
+mapFormer |  
+mapLatter |  
+flatMapFormer |  
+flatMapLatter |  
+listMap | 
+flatListMap |  
+listFlatMap |  
+flatListFlatMap |  
