@@ -59,7 +59,7 @@ marble flatListMap
 {
     source a:                  +{1,2,3}--{4}--{5,6}|
     source b:                  +XY|
-    operator flatListMap:          +{1X,2X,3X}{1Y,2Y,3Y}-{4X}{4Y}-{5X,6X}{5Y,6Y}|
+    operator flatListMap:      +{1X,2X,3X}{1Y,2Y,3Y}-{4X}{4Y}-{5X,6X}{5Y,6Y}|
 }
 
 marble listFlatMap
