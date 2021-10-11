@@ -32,7 +32,7 @@ marble mapFormer
 marble mapLatter
 {
     source a:                  +--{1,A}-{2,B}-{3,C}--{4,D}--|
-    operator mapFormer:        +--{1,AA}-{2,BB}-{3,CC}--{4,DD}--|
+    operator mapLatter:        +--{1,AA}-{2,BB}-{3,CC}--{4,DD}--|
 }
 
 marble flatMapFormer
@@ -46,7 +46,7 @@ marble flatMapLatter
 {
     source a:                  +{1,A}--{2,B}--{3,C}---{4,D}|
     source b:                  +XY|
-    operator flatMapFormer:    +{1,AX}{1,AY}-{2,BX}{2,BY}-{3,CX}{3,CY}--{4,DX}{4,DY}|
+    operator flatMapLatter:    +{1,AX}{1,AY}-{2,BX}{2,BY}-{3,CX}{3,CY}--{4,DX}{4,DY}|
 }
 
 marble listMap
@@ -59,7 +59,7 @@ marble flatListMap
 {
     source a:                  +{1,2,3}--{4}--{5,6}|
     source b:                  +XY|
-    operator listMap:          +{1X,2X,3X}{1Y,2Y,3Y}-{4X}{4Y}-{5X,6X}{5Y,6Y}|
+    operator flatListMap:          +{1X,2X,3X}{1Y,2Y,3Y}-{4X}{4Y}-{5X,6X}{5Y,6Y}|
 }
 
 marble listFlatMap
