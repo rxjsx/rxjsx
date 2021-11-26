@@ -14,4 +14,23 @@ describe('zipWith', () => {
       )
       .subscribe(_ => done());
   });
+
+  it('should propagate error properly', () => {
+    of(2)
+      .pipe(
+        zipMap(num => {
+          if (num === 2) {
+            throw new Error('error');
+          }
+          return `${num}`;
+        }),
+      )
+      .subscribe(
+        // eslint-disable-next-line @typescript-eslint/no-empty-function
+        () => {},
+        err => {
+          expect(err.message).toEqual('error');
+        },
+      );
+  });
 });

@@ -9,6 +9,23 @@ describe('listMap', () => {
       .pipe(tap(list => expect(list).toEqual([2, 4])))
       .subscribe(_ => done());
   });
+
+  it('should propagate error properly', () => {
+    of([1, 2])
+      .pipe(
+        listMap(x => {
+          if (x === 1) {
+            throw new Error('error');
+          }
+          return x * 2;
+        }),
+      )
+      .subscribe(
+        // eslint-disable-next-line @typescript-eslint/no-empty-function
+        _ => {},
+        err => expect(err.message).toEqual('error'),
+      );
+  });
 });
 
 describe('flatListMap', () => {
@@ -17,6 +34,23 @@ describe('flatListMap', () => {
       .pipe(flatListMap(x => of(x * 2)))
       .pipe(tap(list => expect(list).toEqual([2, 4])))
       .subscribe(_ => done());
+  });
+
+  it('should propagate error properly', () => {
+    of([1, 2])
+      .pipe(
+        flatListMap(x => {
+          if (x === 1) {
+            throw new Error('error');
+          }
+          return of(x * 2);
+        }),
+      )
+      .subscribe(
+        // eslint-disable-next-line @typescript-eslint/no-empty-function
+        _ => {},
+        err => expect(err.message).toEqual('error'),
+      );
   });
 });
 
@@ -27,6 +61,23 @@ describe('listFlatMap', () => {
       .pipe(tap(list => expect(list).toEqual([1, 2, 2, 4])))
       .subscribe(_ => done());
   });
+
+  it('should propagate error properly', () => {
+    of([1, 2])
+      .pipe(
+        listFlatMap(x => {
+          if (x === 1) {
+            throw new Error('error');
+          }
+          return [x, x * 2];
+        }),
+      )
+      .subscribe(
+        // eslint-disable-next-line @typescript-eslint/no-empty-function
+        _ => {},
+        err => expect(err.message).toEqual('error'),
+      );
+  });
 });
 
 describe('flatListFlatMap', () => {
@@ -35,5 +86,22 @@ describe('flatListFlatMap', () => {
       .pipe(flatListFlatMap(x => of([x, x * 2])))
       .pipe(tap(list => expect(list).toEqual([1, 2, 2, 4])))
       .subscribe(_ => done());
+  });
+
+  it('should propagate error properly', () => {
+    of([1, 2])
+      .pipe(
+        flatListFlatMap(x => {
+          if (x === 1) {
+            throw new Error('error');
+          }
+          return of([x, x * 2]);
+        }),
+      )
+      .subscribe(
+        // eslint-disable-next-line @typescript-eslint/no-empty-function
+        _ => {},
+        err => expect(err.message).toEqual('error'),
+      );
   });
 });
