@@ -14,4 +14,24 @@ describe('flatZipWith', () => {
       )
       .subscribe(_ => done());
   });
+
+  it('should propagate error properly', () => {
+    const error = new Error('error');
+    of(2)
+      .pipe(
+        flatZipMap(num => {
+          if (num === 2) {
+            throw error;
+          }
+          return of(`${num}`);
+        }),
+      )
+      .subscribe(
+        // eslint-disable-next-line @typescript-eslint/no-empty-function
+        () => {},
+        err => {
+          expect(err).toEqual(error);
+        },
+      );
+  });
 });
