@@ -4,22 +4,22 @@
 
 The available operators so far are the following:
 
--  [flatMap](#flatmap)
+-  [flatMap / mergeMap](#flatmap--mergeMap)
 -  [zipMap](#zipmap)
--  [flatZipMap](#flatzipmap)
+-  [flatZipMap / mergeZipMap](#flatzipmap--mergezipmap)
 -  [projectToFormer](#projecttoformer)
 -  [projectToLatter](#projecttolatter)
 -  [projectTo](#projectto)
 -  [mapFormer](#mapformer)
 -  [mapLatter](#maplatter)
--  [flatMapFormer](#flatmapformer)
--  [flatMapLatter](#flatmaplatter)
+-  [flatMapFormer / mergeMapFormer](#flatmapformer--mergemapformer)
+-  [flatMapLatter / mergeMapLatter](#flatmaplatter--mergemaplatter)
 -  [listMap](#listmap)
--  [flatListMap](#flatlistmap)
+-  [flatListMap/ mergeListMap](#flatlistmap--mergelistmap)
 -  [listFlatMap](#listflatmap)
--  [flatListFlatMap](#flatlistflatmap)
+-  [flatListFlatMap / mergeListFlatMap](#flatlistflatmap--mergelistflatmap)
 
-### flatMap
+### flatMap / mergeMap
 
 An alias of RxJS's `mergeMap`. Just to get rid of the deprecation warning.
 
@@ -52,7 +52,7 @@ of(1, 2, 3)
   .subscribe(s => console.log(nummericalVal, s));
 ```
 
-### flatZipMap
+### flatZipMap / mergeZipMap
 
 ![flatZipMap](marbles/png/flatZipMap.png)
 
@@ -143,7 +143,7 @@ of<[number, string]>([1, '1'], [2, '2'])
   .subscribe(console.log);
 ```
 
-### flatMapFormer
+### flatMapFormer / mergeMapFormer
 
 ![flatMapFormer](marbles/png/flatMapFormer.png)
 
@@ -158,7 +158,7 @@ of<[number, string]>([1, '1'], [2, '2'])
   .subscribe(console.log);
 ```
 
-### flatMapLatter
+### flatMapLatter / mergeMapLatter
 
 ![flatMapLatter](marbles/png/flatMapLatter.png)
 
@@ -188,7 +188,7 @@ of([1, 2, 3])
   .subscribe(console.log); // [2, 4, 6]
 ```
 
-### flatListMap
+### flatListMap / mergeListMap
 
 ![flatListMap](marbles/png/flatListMap.png)
 
@@ -218,7 +218,7 @@ of([1, 2, 3])
   .subscribe(console.log); // [1, 2, 2, 4, 3, 6]
 ```
 
-### flatListFlatMap
+### flatListFlatMap / mergeListFlatMap
 
 ![flatListFlatMap](marbles/png/flatListFlatMap.png)
 

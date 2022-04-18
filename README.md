@@ -29,20 +29,20 @@ The available operators so far are the following:
 
 Operator | Description |
 --- | --- |
-[`flatMap`](https://github.com/rxjsx/rxjsx/tree/master/docs/operators#flatmap) | RxJS's mergeMap alias |
+[`flatMap` / `mergeMap`](https://github.com/rxjsx/rxjsx/tree/master/docs/operators#flatmap) | RxJS's mergeMap alias |
 [`zipMap`](https://github.com/rxjsx/rxjsx/tree/master/docs/operators#zipmap) | To zip the transformed value with the original value |
-[`flatZipMap`](https://github.com/rxjsx/rxjsx/tree/master/docs/operators#flatzipmap) | Similar to [zipMap](https://github.com/rxjsx/rxjsx/tree/master/docs/operators#zipmap), but to be used when a transformation returns an observable | 
+[`flatZipMap` / `mergeZipMap`](https://github.com/rxjsx/rxjsx/tree/master/docs/operators#flatzipmap) | Similar to [zipMap](https://github.com/rxjsx/rxjsx/tree/master/docs/operators#zipmap), but to be used when a transformation returns an observable | 
 [`projectToFormer`](https://github.com/rxjsx/rxjsx/tree/master/docs/operators#projecttoformer) | To project an observable of pairs, to get the first coordinate |
 [`projectToLatter`](https://github.com/rxjsx/rxjsx/tree/master/docs/operators#projecttolatter) | To project an observable of pairs, to get the second coordinate |
 [`projectTo`](https://github.com/rxjsx/rxjsx/tree/master/docs/operators#projectto) | To project an observable of tuples | 
 [`mapFormer`](https://github.com/rxjsx/rxjsx/tree/master/docs/operators#mapformer) | To transform the first coordinate of an observable of pairs | 
 [`mapLatter`](https://github.com/rxjsx/rxjsx/tree/master/docs/operators#maplatter) | To transform the second coordinate of an observable of pairs | 
-[`flatMapFormer`](https://github.com/rxjsx/rxjsx/tree/master/docs/operators#flatmapformer) | Similar to [mapFormer](https://github.com/rxjsx/rxjsx/tree/master/docs/operators#mapformer), but to work on stream-returning transformations |
-[`flatMapLatter`](https://github.com/rxjsx/rxjsx/tree/master/docs/operators#flatmaplatter) | Similar to [mapLatter](https://github.com/rxjsx/rxjsx/tree/master/docs/operators#maplatter), but to work on stream-returning transformations | 
+[`flatMapFormer` / `mergeMapFormer`](https://github.com/rxjsx/rxjsx/tree/master/docs/operators#flatmapformer) | Similar to [mapFormer](https://github.com/rxjsx/rxjsx/tree/master/docs/operators#mapformer), but to work on stream-returning transformations |
+[`flatMapLatter` / `mergeMapLatter`](https://github.com/rxjsx/rxjsx/tree/master/docs/operators#flatmaplatter) | Similar to [mapLatter](https://github.com/rxjsx/rxjsx/tree/master/docs/operators#maplatter), but to work on stream-returning transformations | 
 [`listMap`](https://github.com/rxjsx/rxjsx/tree/master/docs/operators#listmap) | To transform an observable of list, with a mapping on the list elements |
-[`flatListMap`](https://github.com/rxjsx/rxjsx/tree/master/docs/operators#flatlistmap) | To transform an observable of list, with a stream-returning member transformation |
+[`flatListMap` / `mergeListMap`](https://github.com/rxjsx/rxjsx/tree/master/docs/operators#flatlistmap) | To transform an observable of list, with a stream-returning member transformation |
 [`listFlatMap`](https://github.com/rxjsx/rxjsx/tree/master/docs/operators#listflatmap) | To transform an observable of list, with a list-returning member transformation |
-[`flatListFlatMap`](https://github.com/rxjsx/rxjsx/tree/master/docs/operators#flatlistflatmap) | To transform an observable of list, with a list-observable-returning transformation|
+[`flatListFlatMap` / `mergeListFlatMap`](https://github.com/rxjsx/rxjsx/tree/master/docs/operators#flatlistflatmap) | To transform an observable of list, with a list-observable-returning transformation|
 
 ## :muscle: Thanks to all Contributors
 [![List of Contributors](https://contrib.rocks/image?repo=rxjsx/rxjsx)](https://github.com/rxjsx/rxjsx/graphs/contributors)
