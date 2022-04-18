@@ -1,10 +1,11 @@
-import { of } from 'rxjs';
+import { from, of } from 'rxjs';
 import { tap } from 'rxjs/operators';
 import { projectTo, projectToFormer, projectToLatter } from './projectTo';
 
 describe('projectToFormer', () => {
   it('should work properly', done => {
-    of<[number, number]>([1, 2], [3, 4])
+    const source: [number, number][] = [[1, 2], [3, 4]];
+    from(source)
       .pipe(projectToFormer())
       .pipe(tap(x => expect(x % 2).toEqual(1)))
       .subscribe(x => {
@@ -17,7 +18,8 @@ describe('projectToFormer', () => {
 
 describe('projectToLatter', () => {
   it('should work properly', done => {
-    of<[number, number]>([1, 2], [3, 4])
+    const source: [number, number][] = [[1, 2], [3, 4]];
+    from(source)
       .pipe(projectToLatter())
       .pipe(tap(x => expect(x % 2).toEqual(0)))
       .subscribe(x => {
