@@ -44,6 +44,9 @@ Operator | Description |
 [`listFlatMap`](https://github.com/rxjsx/rxjsx/tree/master/docs/operators#listflatmap) | To transform an observable of list, with a list-returning member transformation |
 [`flatListFlatMap`](https://github.com/rxjsx/rxjsx/tree/master/docs/operators#flatlistflatmap) | To transform an observable of list, with a list-observable-returning transformation|
 
+## Thanks to all Contributors
+[![List of Contributors](https://contrib.rocks/image?repo=rxjsx/rxjsx)](https://github.com/rxjsx/rxjsx/graphs/contributors)
+
 ## Related Literature
 - [13 Handy RxJS Operators to Deal with Arrays and Tuples](https://itnext.io/13-handy-rxjs-operators-ab5a9a1db60)
 
