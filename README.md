@@ -52,3 +52,6 @@ Operator | Description |
 
 ## :keyboard: Contributing
 - [CONTRIBUTING.md](CONTRIBUTING.md)
+
+## :pray: Support
+This project needs your support. Don't forget to leave a :star: behind.
