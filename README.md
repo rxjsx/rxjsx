@@ -6,12 +6,12 @@
 ![Snyk Vulnerabilities for npm scoped package](https://img.shields.io/snyk/vulnerabilities/npm/@rxjsx/rxjsx)
 [![Run on Repl.it](https://docs.replit.com/images/repls/run-on-replit.svg)](https://replit.com/@aerabi/flatListMap#index.ts)
 
-## Install
+## :hammer_and_wrench: Install
 ```bash
 npm install --save @rxjsx/rxjsx rxjs
 ```
 
-## Usage
+## :technologist: Demo
 ```typescript
 import { of } from 'rxjs';
 import { flatListMap } from '@rxjsx/rxjsx';
@@ -23,7 +23,7 @@ of([1, 2, 3], [4], [5, 6])
 You can experiment with the above code by forking [this](https://replit.com/@aerabi/flatListMap#index.ts)
 ReplIt repo or through this [Medium article](https://itnext.io/13-handy-rxjs-operators-ab5a9a1db60).
 
-## Manual
+## :notebook: Manual
 
 The available operators so far are the following:
 
@@ -44,11 +44,11 @@ Operator | Description |
 [`listFlatMap`](https://github.com/rxjsx/rxjsx/tree/master/docs/operators#listflatmap) | To transform an observable of list, with a list-returning member transformation |
 [`flatListFlatMap`](https://github.com/rxjsx/rxjsx/tree/master/docs/operators#flatlistflatmap) | To transform an observable of list, with a list-observable-returning transformation|
 
-## Thanks to all Contributors
+## :muscle: Thanks to all Contributors
 [![List of Contributors](https://contrib.rocks/image?repo=rxjsx/rxjsx)](https://github.com/rxjsx/rxjsx/graphs/contributors)
 
-## Related Literature
+## :books: Related Literature
 - [13 Handy RxJS Operators to Deal with Arrays and Tuples](https://itnext.io/13-handy-rxjs-operators-ab5a9a1db60)
 
-## Contributing
+## :keyboard: Contributing
 - [CONTRIBUTING.md](CONTRIBUTING.md)
