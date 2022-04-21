@@ -6,6 +6,8 @@
 ![Snyk Vulnerabilities for npm scoped package](https://img.shields.io/snyk/vulnerabilities/npm/@rxjsx/rxjsx)
 [![Run on Repl.it](https://docs.replit.com/images/repls/run-on-replit.svg)](https://replit.com/@aerabi/flatListMap#index.ts)
 
+RxJS operators to deal with arrays, tuples, and dragging the original values along while adding more values to the pipeline.
+
 ## :hammer_and_wrench: Install
 ```bash
 npm install --save @rxjsx/rxjsx rxjs
@@ -22,6 +24,29 @@ of([1, 2, 3], [4], [5, 6])
 ```
 You can experiment with the above code by forking [this](https://replit.com/@aerabi/flatListMap#index.ts)
 ReplIt repo or through this [Medium article](https://itnext.io/13-handy-rxjs-operators-ab5a9a1db60).
+
+## :open_book: Examples
+```typescript
+// instead of this
+of([1, 2, 3]).pipe(map(l => l.map(e => e * 2))
+
+// you can do this
+of([1, 2, 3]).pipe(listMap(e => e * 2)) // [2, 4, 6]
+```
+
+```typescript
+// instead of this
+let device;
+deviceService.getDevice(id)
+  .pipe(tap(_device => device = _device))
+  .pipe(flatMap(_device => userService.getUser(device.owner)))
+  .pipe(map(_user => userService.unassignDevice(_user, _device)))
+
+// you can do this
+deviceService.getDevice(id)
+  .pipe(flatZipMap(device => userService.getUser(device.owner)))
+  .pipe(map(([device, user]) => userService.unassignDevice(user, device)))
+```
 
 ## :notebook: Manual
 
