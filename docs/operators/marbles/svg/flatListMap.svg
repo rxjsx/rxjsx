@@ -15,15 +15,15 @@
    inkscape:version="0.91 r13725"
   >
   <defs
-     id="defs4">
+     id="defs4"> 
 <filter
        style="color-interpolation-filters:sRGB;"
        inkscape:label="Drop Shadow"
        id="filter3443"
         x="-25%"
         y="-25%"
-        width="150%"
-        height="150%"
+        width="150%"        
+        height="150%"        
         >
       <feFlood
          flood-opacity="0.498039"
@@ -65,11 +65,11 @@
          d="M -3.0,0.0 L -3.0,-5.0 L -12.5,0.0 L -3.0,5.0 L -3.0,0.0 z "
          style="fill-rule:evenodd;stroke:#003080;stroke-width:1pt;stroke-opacity:1;fill:#003080;fill-opacity:1"
          transform="scale(0.8) rotate(180) translate(12.5,0)" />
-    </marker>
+    </marker>    
 
   </defs>
     <g id="source_0cc175b9c0f1b6a831c399e269772661" transform="rotate(0 0.0 30) translate(0.0,30)">
-  <path
+  <path 
      style="fill:none;fill-rule:evenodd;stroke:#003080;stroke-width:2px;marker-end:url(#Arrow1Lend)"
      d="m 0,0 447.0,0"
      inkscape:connector-curvature="0" />
@@ -190,7 +190,7 @@
        style="fill:none;fill-rule:evenodd;stroke:#003080;stroke-width:4px;" />
 </g>
 </g><g id="source_92eb5ffee6ae2fec3ad71c777531578f" transform="rotate(0 0.0 210.0) translate(0.0,210.0)">
-  <path
+  <path 
      style="fill:none;fill-rule:evenodd;stroke:#003080;stroke-width:2px;marker-end:url(#Arrow1Lend)"
      d="m 0,0 197.0,0"
      inkscape:connector-curvature="0" />
@@ -239,8 +239,8 @@
          style="font-size:22px;font-family:sans-serif;text-align:center;text-anchor:middle;fill:#000000;"
          xml:space="preserve">flatListMap</text>
     </g>
-<g id="operator_62f4cf4844927d6b0f258e87e896a630" transform="rotate(0 0.0 120) translate(0.0,120)">
-  <path
+<g id="operator_fa1222ea71ee90b11a2c2379c5124ccd" transform="rotate(0 0.0 120) translate(0.0,120)">
+  <path 
      style="fill:none;fill-rule:evenodd;stroke:#003080;stroke-width:2px;marker-end:url(#Arrow1Lend)"
      d="m 0,0 497.0,0"
      inkscape:connector-curvature="0" />
