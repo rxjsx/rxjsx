@@ -9,3 +9,4 @@ This file is a shoutout to all of the amazing people who support this project. F
 - [Anupesh Kumar Verma](https://github.com/anupeshverma)
 - [Sajib Adhikary](https://github.com/sajibAdhi)
 - [Hakim](https://github.com/LuqmanHakim7)
+- [Surya Saputra](https://github.com/suryaasaputra)
