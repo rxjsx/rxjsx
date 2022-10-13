@@ -4,6 +4,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/rxjsx/rxjsx/badge.svg?branch=aerabi/add-coverage)](https://coveralls.io/github/rxjsx/rxjsx?branch=aerabi/add-coverage)
 ![npm (scoped)](https://img.shields.io/npm/v/@rxjsx/rxjsx)
 ![Snyk Vulnerabilities for npm scoped package](https://img.shields.io/snyk/vulnerabilities/npm/@rxjsx/rxjsx)
+[![@rxjsx/rxjsx](https://snyk.io/advisor/npm-package/@rxjsx/rxjsx/badge.svg)](https://snyk.io/advisor/npm-package/@rxjsx/rxjsx)
 [![Maintainability](https://api.codeclimate.com/v1/badges/59a759ec667ce846ed2f/maintainability)](https://codeclimate.com/github/rxjsx/rxjsx/maintainability)
 
 RxJS operators to deal with arrays, tuples, and dragging the original values along while adding more values to the pipeline.
