@@ -13,5 +13,5 @@ This file is a shoutout to all of the amazing people who support this project. F
 - [Avinash Sharma](https://github.com/Aks112)
 - [Neeraj Verma](https://github.com/zeroes-nd-ones)
 - [Nitish Malang](https://github.com/nitishmalang)
+- [bryanpratama](https://github.com/bryanpratama)
 - [Peter Sahm](https://github.com/PeterSahm)
-
