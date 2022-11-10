@@ -10,4 +10,5 @@ This file is a shoutout to all of the amazing people who support this project. F
 - [Sajib Adhikary](https://github.com/sajibAdhi)
 - [Hakim](https://github.com/LuqmanHakim7)
 - [Surya Saputra](https://github.com/suryaasaputra)
+- [Avinash Sharma](https://github.com/Aks112)
 - [Peter Sahm](https://github.com/PeterSahm)
