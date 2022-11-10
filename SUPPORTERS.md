@@ -10,4 +10,8 @@ This file is a shoutout to all of the amazing people who support this project. F
 - [Sajib Adhikary](https://github.com/sajibAdhi)
 - [Hakim](https://github.com/LuqmanHakim7)
 - [Surya Saputra](https://github.com/suryaasaputra)
+- [Avinash Sharma](https://github.com/Aks112)
+- [Neeraj Verma](https://github.com/zeroes-nd-ones)
 - [Nitish Malang](https://github.com/nitishmalang)
+- [Peter Sahm](https://github.com/PeterSahm)
+
