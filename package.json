@@ -23,7 +23,7 @@
     "rxjs"
   ],
   "author": "Mohammad-Ali A'RÂBI",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/rxjsx/rxjsx/issues"
   },
