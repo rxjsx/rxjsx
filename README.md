@@ -1,4 +1,7 @@
 # RxJS Extensions
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 [![codeql](https://github.com/rxjsx/rxjsx/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/rxjsx/rxjsx/actions/workflows/codeql-analysis.yml)
 [![Tests Status](https://github.com/rxjsx/rxjsx/actions/workflows/node.yml/badge.svg)](https://github.com/rxjsx/rxjsx/actions/workflows/node.yml)
 [![Coverage Status](https://coveralls.io/repos/github/rxjsx/rxjsx/badge.svg?branch=aerabi/add-coverage)](https://coveralls.io/github/rxjsx/rxjsx?branch=aerabi/add-coverage)
@@ -75,6 +78,13 @@ Operator | Description |
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="http://aerabi.com"><img src="https://avatars.githubusercontent.com/u/44623032?v=4?s=100" width="100px;" alt="Mohammad-Ali A'RÂBI"/><br /><sub><b>Mohammad-Ali A'RÂBI</b></sub></a><br /><a href="#infra-aerabi" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#maintenance-aerabi" title="Maintenance">🚧</a> <a href="#platform-aerabi" title="Packaging/porting to new platform">📦</a></td>
+    </tr>
+  </tbody>
+</table>
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
@@ -89,3 +99,16 @@ Operator | Description |
 
 ## :pray: Support
 This project needs your support. Don't forget to leave a :star: behind.
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
