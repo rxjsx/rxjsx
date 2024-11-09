@@ -75,6 +75,8 @@ Operator | Description |
 
 ## :muscle: Thanks to all Contributors
 
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
@@ -91,6 +93,8 @@ Operator | Description |
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
 ## :books: Related Literature
 - [13 Handy RxJS Operators to Deal with Arrays and Tuples](https://itnext.io/13-handy-rxjs-operators-ab5a9a1db60)
 
@@ -99,16 +103,3 @@ Operator | Description |
 
 ## :pray: Support
 This project needs your support. Don't forget to leave a :star: behind.
-
-## Contributors ✨
-
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
