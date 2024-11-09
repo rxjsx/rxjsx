@@ -1,0 +1,28 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "aerabi",
+      "name": "Mohammad-Ali A'RÂBI",
+      "avatar_url": "https://avatars.githubusercontent.com/u/44623032?v=4",
+      "profile": "http://aerabi.com",
+      "contributions": [
+        "infra",
+        "maintenance",
+        "platform"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "skipCi": true,
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "projectName": "rxjsx",
+  "projectOwner": "rxjsx"
+}
