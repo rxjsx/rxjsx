@@ -71,7 +71,15 @@ Operator | Description |
 [`flatListFlatMap` / `mergeListFlatMap`](https://github.com/rxjsx/rxjsx/tree/master/docs/operators#flatlistflatmap) | To transform an observable of list, with a list-observable-returning transformation|
 
 ## :muscle: Thanks to all Contributors
-[![List of Contributors](https://contrib.rocks/image?repo=rxjsx/rxjsx)](https://github.com/rxjsx/rxjsx/graphs/contributors)
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ## :books: Related Literature
 - [13 Handy RxJS Operators to Deal with Arrays and Tuples](https://itnext.io/13-handy-rxjs-operators-ab5a9a1db60)
