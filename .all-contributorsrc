@@ -5,7 +5,7 @@
   "imageSize": 100,
   "commit": false,
   "commitType": "docs",
-  "commitConvention": "angular",
+  "commitConvention": "eslint",
   "contributors": [
     {
       "login": "aerabi",
