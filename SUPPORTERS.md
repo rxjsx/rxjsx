@@ -17,3 +17,4 @@ This file is a shoutout to all of the amazing people who support this project. F
 - [Peter Sahm](https://github.com/PeterSahm)
 - [Mohamed Nabeel](https://github.com/nabeelmohamed)
 - [Zoe Braiterman](https://github.com/zbraiterman)
+- [Krishna Biradar](https://github.com/krishnabiradar310802)
