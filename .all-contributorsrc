@@ -17,6 +17,17 @@
         "maintenance",
         "platform"
       ]
+    },
+    {
+      "login": "SchweizS",
+      "name": "SchweizS",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18433748?v=4",
+      "profile": "https://github.com/SchweizS",
+      "contributions": [
+        "ideas",
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
