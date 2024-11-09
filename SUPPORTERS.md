@@ -15,4 +15,5 @@ This file is a shoutout to all of the amazing people who support this project. F
 - [Nitish Malang](https://github.com/nitishmalang)
 - [bryanpratama](https://github.com/bryanpratama)
 - [Peter Sahm](https://github.com/PeterSahm)
+- [Mohamed Nabeel](https://github.com/nabeelmohamed)
 - [Zoe Braiterman](https://github.com/zbraiterman)
